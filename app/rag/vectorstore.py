@@ -1,12 +1,19 @@
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEndpointEmbeddings
 from langchain_qdrant import QdrantVectorStore
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import Distance, VectorParams
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 COLLECTION_NAME = "knowledge_base"
 QDRANT_PATH = "app/rag/qdrant_data"
 
-embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+embedding_model = HuggingFaceEndpointEmbeddings(
+    model="sentence-transformers/all-MiniLM-L6-v2",
+    huggingfacehub_api_token=os.getenv("HF_TOKEN"),
+)
 
 def get_qdrant_client():
     return QdrantClient(path=QDRANT_PATH)
