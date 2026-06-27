@@ -1,0 +1,14 @@
+Refund Policy:
+Customers can request a refund within 30 days of purchase. Refunds are processed within 5-7 business days after approval. To request a refund, go to Orders section and click "Request Refund".
+
+Login Issues:
+If you forgot your password, click "Forgot Password" on the login page. A reset link will be sent to your registered email. If you don't receive the email, check your spam folder or contact support.
+
+Order Tracking:
+You can track your order status from the "My Orders" page. Order status updates include: Processing, Shipped, Out for Delivery, and Delivered. Tracking number is sent via email once the order is shipped.
+
+Subscription Management:
+You can upgrade, downgrade, or cancel your subscription from Account Settings > Subscription. Cancellations take effect at the end of the current billing cycle. No partial refunds are given for mid-cycle cancellations.
+
+Payment Issues:
+If a payment fails, check that your card details are correct and has sufficient balance. We accept Visa, Mastercard, and UPI. If the issue persists, try a different payment method or contact your bank.
